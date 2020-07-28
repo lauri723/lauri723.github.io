@@ -18,7 +18,8 @@ body {
 }
 
 .designs {
-	color: #061f3d;
+	color: red;
+	/* color: #061f3d; */
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1em;
 	line-height: .8em;
