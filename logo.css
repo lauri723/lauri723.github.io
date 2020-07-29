@@ -13,7 +13,7 @@ body {
 	font-weight: bold;
 	font-size: 3.8em;
 	line-height: 1.5em;
-	padding-bottom: 20px;
+	padding: 20px;
 	-webkit-background-clip: text!important;
 	-webkit-text-fill-color: transparent;
 }
