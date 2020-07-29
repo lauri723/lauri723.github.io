@@ -9,33 +9,33 @@ body {
 }
   
 .lovely {
-	font-family: 'Tangerine', cursive;
-	font-size: 4em;
-	font-weight: 500;
-	line-height: .8em;
+	font-family: 'Parisienne', cursive;
+	font-weight: bold;
+	font-size: 3.8em;
+	line-height: 1.5em;
+	padding-bottom: 20px;
 	-webkit-background-clip: text!important;
 	-webkit-text-fill-color: transparent;
 }
 
 .designs {
-	color: red;
-	/* color: #061f3d; */
-	font-family: 'Julius Sans One', sans-serif;
-	font-size: 1em;
-	line-height: .8em;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
 	position: relative;
-	bottom: 20px;
+	right: 45px;
+	bottom: 45px;
 }
 
 .web {
-    color: #061f3d;
-	font-family: 'Julius Sans One', sans-serif;
-	font-size: .75em;
-	line-height: .8em;
+    color: #073b4c;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: .9em;
+	font-weight: 400;
 	position: relative;
-	bottom: 20px;
+	right: 45px;
+	bottom: 45px;
 } 
 
-  
   
   
