@@ -3,9 +3,36 @@
 body {
 	height:100vh;
 	width:100%;
-	display:flex;
+	/* display: flex; */
 	justify-content: center;
 	align-items: center;
+}
+
+#navbar {
+	width: 100%;
+}
+
+#navbar .nav-link {
+	color: #073b4c;
+	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Montserrat Alternates', sans-serif; */
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+#navbar .about {
+	color: red;
+}
+
+.logo {
+	width: 70%;
+	max-width: 700px;
+	margin-top: 50px;
+	margin-bottom: 200px;
+	background: linear-gradient(to right, #7F7FD5, #86A8E7 30%, #91EAE4 99%);
+	padding: 50px;
+	border-radius: 60% 60% / 60% 60%;
+	
 }
 
 .rows {
@@ -32,7 +59,7 @@ body {
 }
 
 .web {
-    color: #073b4c;
+    color: #262673;
 	font-family: 'Montserrat Alternates', sans-serif;
 	font-size: .9em;
 	font-weight: 400;
