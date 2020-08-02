@@ -1,72 +1,108 @@
-
-
-body {
+.main {
 	height:100vh;
-	width:100%;
-	/* display: flex; */
+	/* width: 100%; */
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-#navbar {
-	width: 100%;
+#navbar ul {
+	background-color: #ff00cc;
+	text-align: center;
+	border-radius: 8px;
+	margin: auto;
+	box-shadow: 8px 8px 10px  rgba(55, 55, 55, 0.2), -8px -8px 10px rgba(0, 0, 0, 0.2);
 }
 
-#navbar .nav-link {
-	color: #073b4c;
-	font-family: 'Raleway', sans-serif;
-	/* font-family: 'Montserrat Alternates', sans-serif; */
-	font-size: 1.4em;
-	font-weight: 500;
+#navbar .nav-link{
+	color: black;
+	font-family: 'Nunito', sans-serif;
+	font-style: 300;
+	font-size: 1.6em;
+	border-radius: 8px;
 }
 
-#navbar .about {
-	color: red;
+#navbar .nav-link:hover {
+	color: #ff00cc;
+	background-color: black;
+}
+
+#navbar .nav-link .active {
+	color: #ff00cc;
+	background-color: black;
 }
 
 .logo {
-	width: 70%;
-	max-width: 700px;
-	margin-top: 50px;
-	margin-bottom: 200px;
-	background: linear-gradient(to right, #7F7FD5, #86A8E7 30%, #91EAE4 99%);
-	padding: 50px;
-	border-radius: 60% 60% / 60% 60%;
-	
+	background-color: #d3d3e6;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+	border-radius: 8px;
+	display: flex;
+	width: 80%;
+	max-width: 800px;
+	box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.2), -20px -20px 15px rgba(0, 0, 0, 0.2);
 }
 
-.rows {
-	text-align: center;
+.logoBack {
+	background: linear-gradient(#86A8E7 40%, #91EAE4 99%);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 8px;
+	display: flex;
+	width: 90%;
+	max-width: 900px;
+	box-shadow: 8px 8px 10px  rgba(172, 172, 172, 0.2), -8px -8px 10px rgba(172, 172, 172, 0.2);
 }
   
 .lovely {
-	font-family: 'Parisienne', cursive;
+	font-family: 'Tangerine', cursive;
 	font-weight: bold;
-	font-size: 3.8em;
+	font-size: 4.8em;
 	line-height: 1.5em;
-	padding: 20px;
+	margin-right: 39px;
+	margin-left: 39px;
+	display: flex;
 	-webkit-background-clip: text!important;
 	-webkit-text-fill-color: transparent;
 }
 
 .designs {
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1.2em;
-	font-weight: 400;
+	font-weight: bold;
 	position: relative;
 	right: 45px;
 	bottom: 45px;
+	text-shadow: 1px 1px grey;
 }
 
 .web {
-    color: #262673;
-	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: .9em;
-	font-weight: 400;
+    color: #333399;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: .90em;
+	font-weight: bold;
 	position: relative;
 	right: 45px;
 	bottom: 45px;
+	text-shadow: 1px 1px grey;
 } 
 
-  
-  
+ .card-body {
+	background-color: #d3d3e6;
+	font-size: .9em;
+	font-weight: bold;
+ }
+
+ .card .btn-link {
+	background-color: #ff00cc;
+	color: black;
+	line-height: .9em;
+	border: none;
+ }
+
+ .card .btn-link:hover {
+	color: #ff00cc;
+	background-color: black;
+ }
+
+ 
