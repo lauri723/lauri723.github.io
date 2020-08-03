@@ -3,7 +3,7 @@
 	/* width: 100%; */
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: ;
 }
 
 #navbar .navbar-toggler {
@@ -62,7 +62,27 @@
 	max-width: 900px;
 	box-shadow: 8px 8px 10px  rgba(172, 172, 172, 0.2), -8px -8px 10px rgba(172, 172, 172, 0.2);
 }
+
+/* #center {
+	box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.2), -20px -20px 15px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+} */
   
+/* .lovely {
+	font-family: 'Tangerine', cursive;
+	font-weight: bold;
+	font-size: 4.8em;
+	line-height: 1.5em;
+	margin-right: 79px;
+	margin-left: 79px;
+	margin-top: 50px;
+	display: flex;
+	background: linear-gradient(to right, #ff00cc, #333399 80%);
+	-webkit-background-clip: text!important;
+	-webkit-text-fill-color: transparent; */
+	/* box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.2), -20px -20px 15px rgba(0, 0, 0, 0.2); */
+/* } */
+
 .lovely {
 	font-family: 'Tangerine', cursive;
 	font-weight: bold;
@@ -70,6 +90,7 @@
 	line-height: 1.5em;
 	margin-right: 39px;
 	margin-left: 39px;
+	margin-top: 50px;
 	display: flex;
 	-webkit-background-clip: text!important;
 	-webkit-text-fill-color: transparent;
@@ -96,10 +117,12 @@
 	text-shadow: 1px 1px grey;
 } 
 
+.card-deck {
+	margin-top: 50px;
+}
+
  .card-body {
 	background-color: #d3d3e6;
-	font-size: .9em;
-	font-weight: bold;
  }
 
  .card .btn-link {
