@@ -1,9 +1,18 @@
 .main {
-	height:100vh;
+	min-height:100vh;
 	/* width: 100%; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+#navbar .navbar-toggler {
+	background-color: #ff00cc;
+	outline-color: #ff00cc;
+}
+
+#navbar .navbar-toggler:focus {
+	outline: none;
 }
 
 #navbar ul {
@@ -104,5 +113,6 @@
 	color: #ff00cc;
 	background-color: black;
  }
+
 
  
